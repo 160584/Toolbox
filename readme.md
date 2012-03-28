@@ -1,3 +1,3 @@
-# FabToolbox:
+# Toolbox:
 
-Een verzameling tools om gemakkelijk code uit te knippen en plakken.
+Een verzameling patterns.
