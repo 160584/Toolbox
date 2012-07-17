@@ -1,0 +1,43 @@
+<!doctype html>
+
+<title>console.log viewer</title>
+
+<script>
+((function(){
+window.log = function(){
+
+  if(!document.getElementById("log")) {
+    var list = document.createElement("ul")
+    list.setAttribute("id","log")
+    list.setAttribute("style","position:absolute;top:70%;left:10%;width:80%;height:25%;z-index:10000;margin:0;padding:0;font:80%/1 Consolas,monospace;white-space:pre-wrap;color:#000;background:rgba(255,255,0,.5);border:1px solid rgba(0,0,0,.2);overflow:scroll;-webkit-overflow-scrolling:touch;overflow-scrolling:touch;")
+    document.body.appendChild(list)
+  }
+
+  // Allow pretty-print option:
+  var space = (arguments[0]=='  ') ? '  ' : false;
+  document.getElementById("log").insertAdjacentHTML("afterbegin", "<li>" + JSON.stringify(Array.prototype.slice.call(arguments), null, space) + "</li>")
+  console.log( arguments )
+};
+})());
+</script>
+
+
+<meta name=viewport content="width=device-width">
+
+<h1>console.log viewer</h1>
+
+
+<script>
+var testObject = {
+  "test": "value",
+  "list": ["aaa", "bbb", "ccc", "ddd"],
+  "num": 12345,
+  "func": function() { log("Func") },
+  "more": ""
+  };
+</script>
+
+<button onclick="log('Test String')">Test String</button>
+<button onclick="log('Test Object', testObject)">Test Object</button>
+<button onclick="log('  ', 'Test Pretty-Object', testObject)">Test Pretty-Object</button>
+<button onclick="document.addEventListener('click',function(event){ log('Test Event', event.type, {'x': event.screenX, 'y': event.screenY}) }, false)">Test Event</button>
