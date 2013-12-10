@@ -3,30 +3,26 @@
 <title>console.log() viewer</title>
 
 <script>
-((function(){
-window.log = function(){
-  if( !('addEventListener' in window) && !('JSON' in window) ) {
-    return;
-  }
-
-  if(!document.getElementById("log")) {
-    var list = document.createElement("ul")
-    list.setAttribute("id","log")
-    list.setAttribute("style","position:fixed;top:80%;left:5%;width:90%;height:20%;margin:0;padding:0;font:100% / 1 Consolas, monospace !important;white-space:pre-wrap;color:#000;background:rgba(255,255,0,.5);overflow:scroll;-webkit-overflow-scrolling:touch;overflow-scrolling:touch;")
-    document.body.appendChild(list)
-  }
-
-  // Allow pretty-print option:
-  var space = (arguments[0]==='  ') ? Array.prototype.shift.call(arguments) : false;
-  document.getElementById("log").insertAdjacentHTML("afterbegin", "<li>" + JSON.stringify(Array.prototype.slice.call(arguments), null, space) + "</li>")
-
-  var index;
-  for( index in arguments ) {
-    console.log( arguments[index] )
-  }
-
-}
-})());
+(function () {
+  "use strict";
+  window.log = function () {
+    if (!('addEventListener' in window) && !('JSON' in window)) {
+      return;
+    }
+    if (!document.getElementById("log")) {
+      var list = document.createElement("ul");
+      list.setAttribute("id", "log");
+      list.setAttribute("style", "position:fixed;top:80%;left:5%;width:90%;height:20%;margin:0;padding:0;font:100% / 1 Consolas, monospace !important;white-space:pre-wrap;color:#000;background:rgba(255,255,0,.5);overflow:scroll;-webkit-overflow-scrolling:touch;overflow-scrolling:touch;");
+      document.body.appendChild(list);
+    }
+    var space = (arguments[0] === '  ') ? Array.prototype.shift.call(arguments) : false;
+    document.getElementById("log").insertAdjacentHTML("afterbegin", "<li>" + JSON.stringify(Array.prototype.slice.call(arguments), null, space) + "</li>");
+    var index;
+    for (index in arguments) {
+      console.log(arguments[index]);
+    }
+  };
+}());
 </script>
 
 
