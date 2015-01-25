@@ -1,0 +1,19 @@
+/*
+    Page with Sticky Footer:
+*/
+$globalFooterHeight : 10em;
+
+.page {
+  min-height: 100%;
+  min-width: $widthL;
+  margin-bottom: -$globalFooterHeight;
+  @include clearfix;
+  &:after {
+    height: $globalFooterHeight;
+  }
+}
+
+.global-footer {
+  height: $globalFooterHeight;
+  min-height: $globalFooterHeight;
+}

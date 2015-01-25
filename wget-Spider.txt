@@ -1,0 +1,3 @@
+# 'Spider' a website, to create a sitemap list of urls:
+wget --spider --force-html -r -l2 http://EXAMPLE.COM 2>&1 | grep '^--' | awk '{ print $3 }' | grep -v '\.\(css\|js\|png\|gif\|jpg\)$' > urls.txt
+
