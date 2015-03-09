@@ -34,6 +34,28 @@ Tools
 - [Xcode](https://developer.apple.com/xcode/): osx, editor, code, simulator
 - [TextWrangler](http://www.barebones.com/products/textwrangler/): osx, editor, code
 
+### Brackets (extentions)
+- EditorConfig
+- Brackets Commands Quick Search
+- Extensions Rating
+- Apache Syntax for Brackets
+- Show Whitespace
+- Line Limiter
+- Document outliner
+- Code Folding
+- Markdown Preview
+- SVG Preview
+- Todo
+- Brackets Surround
+- More CSS Code Hints
+- More HTML5 Code Hints
+- SASSHints
+- Beautify
+- Brackets Rezymer
+- HTMLHint
+- JSHint
+
+
 ### Hosting
 - [GitHub](https://github.com/): git
 - [Bitbucket](https://bitbucket.com/): git
