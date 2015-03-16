@@ -1,4 +1,0 @@
-# Create an offline 'backup'
-
-wget --recursive --no-parent --page-requisites --no-clobber --convert-links --force-html --adjust-extension --span-hosts --domains=EXAMPLE.NL,STATIC.EXAMPLE.NL http://EXAMPLE.NL
-
