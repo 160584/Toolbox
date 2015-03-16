@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head>
 <meta charset="utf-8">
-    
+
 <title>focus-fade-out animation</title>
 
 <meta name="viewport" content="width=device-width">
@@ -11,31 +11,31 @@ body {
 	background: white;
 }
 style {
-    display: block;
+	display: block;
 }
 
 
 @-webkit-keyframes focusOutlineFadeOut {
-  from {
-    outline-color: gold;
-  }
-  to {
-    outline-color: transparent;
-  }
+	from {
+		outline-color: gold;
+	}
+	to {
+		outline-color: transparent;
+	}
 }
 @keyframes focusOutlineFadeOut {
-  from {
-    outline-color: gold;
-  }
-  to {
-    outline-color: transparent;
-  }
+	from {
+		outline-color: gold;
+	}
+	to {
+		outline-color: transparent;
+	}
 }
 
 main:focus {
-  outline: thick dotted;
-  -webkit-animation: focusOutlineFadeOut 2s ease-out 0 1 forwards;
-  animation: focusOutlineFadeOut 2s ease-out 0 1 forwards;
+	outline: thick dotted;
+	-webkit-animation: focusOutlineFadeOut 2s ease-out 0 1 forwards;
+	animation: focusOutlineFadeOut 2s ease-out 0 1 forwards;
 }
 </style>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head>
 <meta charset="utf-8">
-    
+
 <title>Numbered List styling</title>
 
 <meta name="viewport" content="width=device-width">
@@ -11,49 +11,47 @@ body {
 	background: white;
 }
 style.snippet {
-    display: block;
+	display: block;
 }
 </style>
-  
+
 <!-- Snippet: -->
 <style class="snippet">
 .numbered-list {
-  counter-reset: li;
+	counter-reset: li;
 }
 
 .numbered-list li {
-  list-style: none;
-  position: relative;
-  padding-left: 2.5em;
-  color: black;
+	list-style: none;
+	position: relative;
+	padding-left: 2.5em;
+	color: black;
 }
 
 .numbered-list li:before{
-  content: counter(li) ".";
-  counter-increment: li;
-  display: inline-block;
-  vertical-align: baseline;
-  position: absolute;
-  top: -0.35em;
-  left: 0;
-  color: red;
-  font-size: 2em;
-  line-height: 1;
+	content: counter(li) ".";
+	counter-increment: li;
+	display: inline-block;
+	vertical-align: baseline;
+	position: absolute;
+	top: -0.35em;
+	left: 0;
+	color: red;
+	font-size: 2em;
+	line-height: 1;
 }
 </style>
 
 </head>
 <body>
 
-
 <ol class="numbered-list">
-    <li>Eerste item lorum ipsum dolor sit amet</li>
-    <li>Tweede item lorum ipsum dolor sit amet</li>
-    <li>Derde item lorum ipsum dolor sit amet</li>
-    <li>Vierde item</li>
-    <li>Vijfde item</li>
+	<li>Eerste item lorum ipsum dolor sit amet</li>
+	<li>Tweede item lorum ipsum dolor sit amet</li>
+	<li>Derde item lorum ipsum dolor sit amet</li>
+	<li>Vierde item</li>
+	<li>Vijfde item</li>
 </ol>
-
 
 </body>
 </html>

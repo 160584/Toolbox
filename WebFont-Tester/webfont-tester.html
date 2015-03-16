@@ -8,115 +8,115 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 <title>WebFont-Tester</title>
-  
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
-  font-family: Verdana, sans-serif;
-  font-size: 100%;
-  line-height: 1;
-  font-weight: normal;
+	font-family: Verdana, sans-serif;
+	font-size: 100%;
+	line-height: 1;
+	font-weight: normal;
 }
 
 .test-right,
 .test-left {
-  width: 40%;
-  margin: 2em 5%;
-  float: left;
-  padding: 2em 0;
-  border-bottom: 1px solid #ccc;
+	width: 40%;
+	margin: 2em 5%;
+	float: left;
+	padding: 2em 0;
+	border-bottom: 1px solid #ccc;
 }
 
 /*
-    Insert @font-face rules:
+		Insert @font-face rules:
 */
 @font-face {
-  font-family: 'fontFamily';
-  src: url('font1/fontFamily.eot');
-  src: url('font1/fontFamily.eot?#iefix') format('embedded-opentype'),
-       url('font1/fontFamily.woff') format('woff'),
-       url('font1/fontFamily.ttf') format('truetype'),
-       url('font1/fontFamily.svg#fontFamily') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'fontFamily';
+	src: url('font1/fontFamily.eot');
+	src: url('font1/fontFamily.eot?#iefix') format('embedded-opentype'),
+			 url('font1/fontFamily.woff') format('woff'),
+			 url('font1/fontFamily.ttf') format('truetype'),
+			 url('font1/fontFamily.svg#fontFamily') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 .fontA {
-  font-family: 'fontFamily', sans-serif;
-  font-weight: normal;
-  font-size: 100%;
-  line-height: 1;
-  color: #000;
-  background: #fff;
+	font-family: 'fontFamily', sans-serif;
+	font-weight: normal;
+	font-size: 100%;
+	line-height: 1;
+	color: #000;
+	background: #fff;
 }
 .fontA div {
-  margin-bottom: 2em;
+	margin-bottom: 2em;
 }
 .fontA.special {
-  -webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
 }
 
 
 </style>
-  
+
 <script>
 /* Modernizr 2.6.2 (Custom Build) | MIT & BSD
  * Build: http://modernizr.com/download/#-fontface-cssclasses-teststyles-css_subpixelfont
  */
 ;window.Modernizr=function(a,b,c){function v(a){j.cssText=a}function w(a,b){return v(prefixes.join(a+";")+(b||""))}function x(a,b){return typeof a===b}function y(a,b){return!!~(""+a).indexOf(b)}function z(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:x(f,"function")?f.bind(d||b):f}return!1}var d="2.6.2",e={},f=!0,g=b.documentElement,h="modernizr",i=b.createElement(h),j=i.style,k,l={}.toString,m={},n={},o={},p=[],q=p.slice,r,s=function(a,c,d,e){var f,i,j,k,l=b.createElement("div"),m=b.body,n=m||b.createElement("body");if(parseInt(d,10))while(d--)j=b.createElement("div"),j.id=e?e[d]:h+(d+1),l.appendChild(j);return f=["&#173;",'<style id="s',h,'">',a,"</style>"].join(""),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background="",n.style.overflow="hidden",k=g.style.overflow,g.style.overflow="hidden",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},t={}.hasOwnProperty,u;!x(t,"undefined")&&!x(t.call,"undefined")?u=function(a,b){return t.call(a,b)}:u=function(a,b){return b in a&&x(a.constructor.prototype[b],"undefined")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!="function")throw new TypeError;var d=q.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(q.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(q.call(arguments)))};return e}),m.fontface=function(){var a;return s('@font-face {font-family:"font";src:url("https://")}',function(c,d){var e=b.getElementById("smodernizr"),f=e.sheet||e.styleSheet,g=f?f.cssRules&&f.cssRules[0]?f.cssRules[0].cssText:f.cssText||"":"";a=/src/i.test(g)&&g.indexOf(d.split(" ")[0])===0}),a};for(var A in m)u(m,A)&&(r=A.toLowerCase(),e[r]=m[A](),p.push((e[r]?"":"no-")+r));return e.addTest=function(a,b){if(typeof a=="object")for(var d in a)u(a,d)&&e.addTest(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b=="function"?b():b,typeof f!="undefined"&&f&&(g.className+=" "+(b?"":"no-")+a),e[a]=b}return e},v(""),i=k=null,e._version=d,e.testStyles=s,g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+p.join(" "):""),e}(this,this.document),Modernizr.addTest("subpixelfont",function(){var a,b="#modernizr{position: absolute; top: -10em; visibility:hidden; font: normal 10px arial;}#subpixel{float: left; font-size: 33.3333%;}";return Modernizr.testStyles(b,function(b){var c=b.firstChild;c.innerHTML="This is a text written in Arial",a=window.getComputedStyle?window.getComputedStyle(c,null).getPropertyValue("width")!=="44px":!1},1,["subpixel"]),a});
 </script>
-  
+
 </head>
 <body class="">
 
-  <section class="base">
-    <div style="font: 100% / 1 normal 'fontFamily';">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 !?€@#&$%/*-+()[]{}^~</div>
-    <div style="font: 100% / 1 normal Arial, sans-serif;">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 !?€@#&$%/*-+()[]{}^~</div>
-  </section>
+<section class="base">
+	<div style="font: 100% / 1 normal 'fontFamily';">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 !?€@#&$%/*-+()[]{}^~</div>
+	<div style="font: 100% / 1 normal Arial, sans-serif;">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 !?€@#&$%/*-+()[]{}^~</div>
+</section>
 
-  <section class="test-left fontA">
-    <div style="font-size: 10px">De chique deejay begaf zich ter stede in ‘n pak van wolmix</div>
-    <div style="font-size: 11px">Het lynxje danste de quickstep met wel vijf roze biggen</div>
-    <div style="font-size: 12px">Welke chique barones verzamelde fijne xyloglyptiek?</div>
-    <div style="font-size: 13px">Max boft: z'n vrouw is qua type degelijk</div>
-    <div style="font-size: 14px">Pa's wijze lynx bezag vroom het fikse aquaduct</div>
-    <div style="font-size: 15px">Filmquiz bracht knappe ex-yogi van de wijs</div>
-    <div style="font-size: 16px">Wazig tv-filmpje rond chique skybox</div>
-    <div style="font-size: 17px">Doch vlakbij zwerft 'n exquis gympje</div>
-    <div style="font-size: 18px">Pechdag: sexy quizvrouw blijft mank</div>
-    <div style="font-size: 19px">Doch Bep, flink sexy qua vorm, zwijgt</div>
-    <div style="font-size: 20px">Lynx c.q. vos prikt bh: dag zwemjuf!</div>
-    <div style="font-size: 21px">Op brute wijze ving de schooljuf de quasi-kalme lynx</div>
-    <div style="font-size: 22px">Lex bederft Uw quiz met typisch vakjargon</div>
-    <div style="font-size: 23px">Sexy qua lijf, doch bang voor ‘t zwempak</div>
-    <div style="font-size: 24px">Max heeft wild zijn postchequeboekje vergokt</div>
-    <div style="font-size: 25px">Doch vlakbij zwerft ‘n exquis gympje</div>
-    <div style="font-size: 26px">De verliefde ex zag bij het aquaduct de walvis omkiepen</div>
-    <div style="font-size: 27px"> Pech, de vrij gebrekkige xylofonist is wel quizmaster!</div>
-  </section>
- 
-  <section class="test-right fontA special">
-    <div style="font-size: 10px">De chique deejay begaf zich ter stede in ‘n pak van wolmix</div>
-    <div style="font-size: 11px">Het lynxje danste de quickstep met wel vijf roze biggen</div>
-    <div style="font-size: 12px">Welke chique barones verzamelde fijne xyloglyptiek?</div>
-    <div style="font-size: 13px">Max boft: z'n vrouw is qua type degelijk</div>
-    <div style="font-size: 14px">Pa's wijze lynx bezag vroom het fikse aquaduct</div>
-    <div style="font-size: 15px">Filmquiz bracht knappe ex-yogi van de wijs</div>
-    <div style="font-size: 16px">Wazig tv-filmpje rond chique skybox</div>
-    <div style="font-size: 17px">Doch vlakbij zwerft 'n exquis gympje</div>
-    <div style="font-size: 18px">Pechdag: sexy quizvrouw blijft mank</div>
-    <div style="font-size: 19px">Doch Bep, flink sexy qua vorm, zwijgt</div>
-    <div style="font-size: 20px">Lynx c.q. vos prikt bh: dag zwemjuf!</div>
-    <div style="font-size: 21px">Op brute wijze ving de schooljuf de quasi-kalme lynx</div>
-    <div style="font-size: 22px">Lex bederft Uw quiz met typisch vakjargon</div>
-    <div style="font-size: 23px">Sexy qua lijf, doch bang voor ‘t zwempak</div>
-    <div style="font-size: 24px">Max heeft wild zijn postchequeboekje vergokt</div>
-    <div style="font-size: 25px">Doch vlakbij zwerft ‘n exquis gympje</div>
-    <div style="font-size: 26px">De verliefde ex zag bij het aquaduct de walvis omkiepen</div>
-    <div style="font-size: 27px"> Pech, de vrij gebrekkige xylofonist is wel quizmaster!</div>
-  </section>
+<section class="test-left fontA">
+	<div style="font-size: 10px">De chique deejay begaf zich ter stede in ‘n pak van wolmix</div>
+	<div style="font-size: 11px">Het lynxje danste de quickstep met wel vijf roze biggen</div>
+	<div style="font-size: 12px">Welke chique barones verzamelde fijne xyloglyptiek?</div>
+	<div style="font-size: 13px">Max boft: z'n vrouw is qua type degelijk</div>
+	<div style="font-size: 14px">Pa's wijze lynx bezag vroom het fikse aquaduct</div>
+	<div style="font-size: 15px">Filmquiz bracht knappe ex-yogi van de wijs</div>
+	<div style="font-size: 16px">Wazig tv-filmpje rond chique skybox</div>
+	<div style="font-size: 17px">Doch vlakbij zwerft 'n exquis gympje</div>
+	<div style="font-size: 18px">Pechdag: sexy quizvrouw blijft mank</div>
+	<div style="font-size: 19px">Doch Bep, flink sexy qua vorm, zwijgt</div>
+	<div style="font-size: 20px">Lynx c.q. vos prikt bh: dag zwemjuf!</div>
+	<div style="font-size: 21px">Op brute wijze ving de schooljuf de quasi-kalme lynx</div>
+	<div style="font-size: 22px">Lex bederft Uw quiz met typisch vakjargon</div>
+	<div style="font-size: 23px">Sexy qua lijf, doch bang voor ‘t zwempak</div>
+	<div style="font-size: 24px">Max heeft wild zijn postchequeboekje vergokt</div>
+	<div style="font-size: 25px">Doch vlakbij zwerft ‘n exquis gympje</div>
+	<div style="font-size: 26px">De verliefde ex zag bij het aquaduct de walvis omkiepen</div>
+	<div style="font-size: 27px"> Pech, de vrij gebrekkige xylofonist is wel quizmaster!</div>
+</section>
 
- 
+<section class="test-right fontA special">
+	<div style="font-size: 10px">De chique deejay begaf zich ter stede in ‘n pak van wolmix</div>
+	<div style="font-size: 11px">Het lynxje danste de quickstep met wel vijf roze biggen</div>
+	<div style="font-size: 12px">Welke chique barones verzamelde fijne xyloglyptiek?</div>
+	<div style="font-size: 13px">Max boft: z'n vrouw is qua type degelijk</div>
+	<div style="font-size: 14px">Pa's wijze lynx bezag vroom het fikse aquaduct</div>
+	<div style="font-size: 15px">Filmquiz bracht knappe ex-yogi van de wijs</div>
+	<div style="font-size: 16px">Wazig tv-filmpje rond chique skybox</div>
+	<div style="font-size: 17px">Doch vlakbij zwerft 'n exquis gympje</div>
+	<div style="font-size: 18px">Pechdag: sexy quizvrouw blijft mank</div>
+	<div style="font-size: 19px">Doch Bep, flink sexy qua vorm, zwijgt</div>
+	<div style="font-size: 20px">Lynx c.q. vos prikt bh: dag zwemjuf!</div>
+	<div style="font-size: 21px">Op brute wijze ving de schooljuf de quasi-kalme lynx</div>
+	<div style="font-size: 22px">Lex bederft Uw quiz met typisch vakjargon</div>
+	<div style="font-size: 23px">Sexy qua lijf, doch bang voor ‘t zwempak</div>
+	<div style="font-size: 24px">Max heeft wild zijn postchequeboekje vergokt</div>
+	<div style="font-size: 25px">Doch vlakbij zwerft ‘n exquis gympje</div>
+	<div style="font-size: 26px">De verliefde ex zag bij het aquaduct de walvis omkiepen</div>
+	<div style="font-size: 27px"> Pech, de vrij gebrekkige xylofonist is wel quizmaster!</div>
+</section>
+
+
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script>
 
