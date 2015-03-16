@@ -18,7 +18,7 @@ Tools
 - [NcFTP](http://www.ncftp.com/): ftp, server, commandline
 - [FileZilla](https://filezilla-project.org/): ftp, server
 - [Cyberduck](https://cyberduck.io/): osx, ftp
-
+- [WinWget](http://portableapps.com/apps/internet/winwget_portable): batch
 
 ## File-syncing/backup:
 - [Dropbox](https://dropbox.com/)
