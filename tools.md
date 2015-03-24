@@ -54,6 +54,7 @@ Tools
 - Brackets Rezymer
 - HTMLHint
 - JSHint
+- Brackets Wordpress Hint
 
 
 ### Hosting
@@ -104,4 +105,4 @@ Tools
 
 ## Services
 - [Deelay.me](http://www.deelay.me/): ajax, dummy, test
-
+- [Reqr.es](http://reqr.es/): ajax, dummy, test, json, api, rest
