@@ -9,8 +9,6 @@ Tools
 - [MacPorts](https://www.macports.org/): osx, software, manager
 - [iTerm](http://iterm2.com/): osx, console, commandline
 - [MAMP](http://www.mamp.info/en/): osx, server
-- [Node.js](https://nodejs.org/): server, nodejs, commandline
-- [Python](https://www.python.org/)
 - [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/): manager
 
 
@@ -20,18 +18,11 @@ Tools
 - [Cyberduck](https://cyberduck.io/): osx, ftp
 - [WinWget](http://portableapps.com/apps/internet/winwget_portable): batch
 
-## File-syncing/backup:
-- [Dropbox](https://dropbox.com/)
-- [Box](https://www.box.com/)
-- [Google Drive](https://drive.google.com/)
-
-
 ## Code
 - [Brackets](http://brackets.io/): editor, code
 - [SourceTree](http://www.sourcetreeapp.com/): code, git, version-control, manager
 - [git-flow](https://github.com/nvie/gitflow): git, version-control
 - [DiffMerge](https://sourcegear.com/diffmerge/): code, diff, version-control
-- [Xcode](https://developer.apple.com/xcode/): osx, editor, code, simulator
 - [TextWrangler](http://www.barebones.com/products/textwrangler/): osx, editor, code
 
 ### Brackets (extentions)
@@ -58,8 +49,6 @@ Tools
 
 
 ### Hosting
-- [GitHub](https://github.com/): git
-- [Bitbucket](https://bitbucket.com/): git
 
 
 ## CSS
