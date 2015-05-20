@@ -96,3 +96,8 @@ Tools
 ## Services
 - [Deelay.me](http://www.deelay.me/): ajax, dummy, test
 - [Reqr.es](http://reqr.es/): ajax, dummy, test, json, api, rest
+
+
+## Database
+- [Sequel Pro](http://www.sequelpro.com/): osx, sql, manager
+- [HeidiSQL](http://www.heidisql.com/): sql, manager
