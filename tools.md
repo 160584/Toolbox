@@ -10,7 +10,7 @@ Tools
 - [iTerm](http://iterm2.com/): osx, console, commandline
 - [MAMP](http://www.mamp.info/en/): osx, server
 - [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/): manager
-
+- [BurpSuite](http://portswigger.net/burp/): proxy, network, debug, test
 
 ## Transfer
 - [NcFTP](http://www.ncftp.com/): ftp, server, commandline
