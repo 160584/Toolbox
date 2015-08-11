@@ -71,6 +71,8 @@ Tools
 - [Placehold.it](http://placehold.it/): service, dummy, test
 - [ImageOptim](https://imageoptim.com/): osx, image, performance, batch, drag-drop
 - [pngOptimizer](http://psydk.org/pngoptimizer): image, performance, batch, drag-drop
+- [TinyPNG](https://tinypng.com/): image, service, performance, batch, drag-drop, png, jpg
+- [SVGOMG](https://jakearchibald.github.io/svgomg/): image, performance, drag-drop, svg
 
 
 ## Fonts
