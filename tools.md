@@ -1,6 +1,7 @@
 Tools
 =====
 
+- [Gists](https://gist.github.com/160584/): bookmarklet
 - [Trello](https://trello.com/): todo, planning, project-management
 - [CoolTools](http://kk.org/cooltools/): resource, blog, podcast, reviews
 - [.dotfiles](https://dotfiles.github.io/): osx, settings
