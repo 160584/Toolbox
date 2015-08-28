@@ -12,11 +12,13 @@ Tools
 - [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/): manager
 - [BurpSuite](http://portswigger.net/burp/): proxy, network, debug, test
 
+
 ## Transfer
 - [NcFTP](http://www.ncftp.com/): ftp, server, commandline
 - [FileZilla](https://filezilla-project.org/): ftp, server
 - [Cyberduck](https://cyberduck.io/): osx, ftp
 - [WinWget](http://portableapps.com/apps/internet/winwget_portable): batch
+
 
 ## Code
 - [Brackets](http://brackets.io/): editor, code
@@ -24,6 +26,7 @@ Tools
 - [git-flow](https://github.com/nvie/gitflow): git, version-control
 - [DiffMerge](https://sourcegear.com/diffmerge/): code, diff, version-control
 - [TextWrangler](http://www.barebones.com/products/textwrangler/): osx, editor, code
+
 
 ### Brackets (extentions)
 - EditorConfig
