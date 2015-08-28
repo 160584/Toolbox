@@ -83,6 +83,11 @@ Tools
 - [TypeKit](https://typekit.com/): service, paid
 
 
+## A11y
+- [tota11y](http://khan.github.io/tota11y/): bookmarklet, debug, test
+- [Visual ARIA Bookmarklet](http://whatsock.com/training/matrices/visual-aria.htm): bookmarklet, debug, test
+
+
 ## Browsers / Platforms
 - [BrowserStack](http://www.browserstack.com/): osx, android, windows, simulator, service, paid, test
 - [Genymotion](http://www.genymotion.com/features/): android, emulator, simulator, test
