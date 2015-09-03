@@ -10,7 +10,6 @@ Tools
 - [MacPorts](https://www.macports.org/): osx, software, manager
 - [iTerm](http://iterm2.com/): osx, console, commandline
 - [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/): manager
-- [BurpSuite](http://portswigger.net/burp/): proxy, network, debug, test
 
 
 ## Transfer
@@ -18,6 +17,10 @@ Tools
 - [FileZilla](https://filezilla-project.org/): ftp, server
 - [Cyberduck](https://cyberduck.io/): osx, ftp
 - [WinWget](http://portableapps.com/apps/internet/winwget_portable): batch
+
+
+## Network
+- [BurpSuite](http://portswigger.net/burp/): proxy, network, debug, test
 
 
 ## Code
