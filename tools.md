@@ -9,7 +9,6 @@ Tools
 - [Homebrew](http://brew.sh/): osx, software, manager
 - [MacPorts](https://www.macports.org/): osx, software, manager
 - [iTerm](http://iterm2.com/): osx, console, commandline
-- [MAMP](http://www.mamp.info/en/): osx, server
 - [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/): manager
 - [BurpSuite](http://portswigger.net/burp/): proxy, network, debug, test
 
@@ -53,6 +52,7 @@ Tools
 
 
 ### Hosting
+- [MAMP](http://www.mamp.info/en/): osx, server
 - [Surge.sh](http://surge.sh/): service, server, static, commandline
 
 
