@@ -4,12 +4,7 @@ Tools
 - [Gists](https://gist.github.com/elwinschmitz/): bookmarklet, code, manager
 - [Trello](https://trello.com/): todo, planning, project-management
 - [CoolTools](http://kk.org/cooltools/): resource, blog, podcast, reviews
-- [.dotfiles](https://dotfiles.github.io/): osx, settings
 - [sizeUp](http://www.irradiatedsoftware.com/sizeup/): osx, window, manager
-- [Homebrew](http://brew.sh/): osx, software, manager
-- [MacPorts](https://www.macports.org/): osx, software, manager
-- [iTerm](http://iterm2.com/): osx, console, commandline
-- [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/): manager
 
 
 ## Transfer
@@ -17,6 +12,14 @@ Tools
 - [FileZilla](https://filezilla-project.org/): ftp, server
 - [Cyberduck](https://cyberduck.io/): osx, ftp
 - [WinWget](http://portableapps.com/apps/internet/winwget_portable): batch
+
+
+## Environment
+- [.dotfiles](https://dotfiles.github.io/): osx, settings
+- [iTerm](http://iterm2.com/): osx, console, commandline
+- [Homebrew](http://brew.sh/): osx, software, manager
+- [MacPorts](https://www.macports.org/): osx, software, manager
+- [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/): manager
 
 
 ## Network
