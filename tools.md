@@ -36,7 +36,7 @@ Tools
 
 
 ### Brackets (extentions)
-    dir %AppData%\Brackets\extensions\user /B
+    dir %AppData%\Brackets\extensions\user /B | clip
 - bobbyearl.taller-working-files
 - brackets-apache-syntax
 - brackets-editorconfig
