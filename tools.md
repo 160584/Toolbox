@@ -36,26 +36,31 @@ Tools
 
 
 ### Brackets (extentions)
-- EditorConfig
-- Brackets Commands Quick Search
-- Extensions Rating
-- Apache Syntax for Brackets
-- Show Whitespace
-- Line Limiter
-- Document outliner
-- Code Folding
-- Markdown Preview
-- SVG Preview
-- Todo
-- Brackets Surround
-- More CSS Code Hints
-- More HTML5 Code Hints
-- SASSHints
-- Beautify
-- Brackets Rezymer
-- HTMLHint
-- JSHint
-- Brackets Wordpress Hint
+    dir %AppData%\Brackets\extensions\user /B
+- bobbyearl.taller-working-files
+- brackets-apache-syntax
+- brackets-editorconfig
+- brackets-html5codehints
+- brackets-morecsscodehints
+- brackets-php-syntax-hint
+- brackets-sort-text
+- camden.htmlhint
+- camden.jshint
+- colorhints
+- crabcode.limiter
+- dkehrig.show-whitespace
+- dnbard.extensions-rating
+- gruehle.markdown-preview
+- jquinter
+- mikaeljorhult.brackets-todo
+- pedelman.brackets-surround
+- pflynn.brackets.commands.guide
+- pflynn.svg.preview
+- quickdocsjs
+- quickdocsphp
+- quickdocsregex
+- sasshints
+- zaggino.brackets-git
 
 
 ### Hosting
