@@ -38,6 +38,7 @@ Tools
 
 ### Brackets (extentions)
     dir %AppData%\Brackets\extensions\user /B | clip
+    ls ~/Library/Application\ Support/Brackets/extensions/user | pbcopy
 - bobbyearl.taller-working-files
 - brackets-apache-syntax
 - brackets-editorconfig
