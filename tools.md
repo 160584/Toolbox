@@ -42,6 +42,7 @@ Tools
 - bobbyearl.taller-working-files
 - brackets-apache-syntax
 - brackets-editorconfig
+- brackets-emmet
 - brackets-html5codehints
 - brackets-morecsscodehints
 - brackets-php-syntax-hint
@@ -52,9 +53,13 @@ Tools
 - crabcode.limiter
 - dkehrig.show-whitespace
 - dnbard.extensions-rating
+- funcdocr
 - gruehle.markdown-preview
 - jquinter
+- mignonstyle.brackets-wp-functions-hints
+- mignonstyle.brackets-wp-hooks-hints
 - mikaeljorhult.brackets-todo
+- nicolo-ribaudo.brackets-jslint-errors
 - pedelman.brackets-surround
 - pflynn.brackets.commands.guide
 - pflynn.svg.preview
