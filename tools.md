@@ -78,6 +78,10 @@ Tools
 - [Surge.sh](http://surge.sh/): service, server, static, commandline
 
 
+## HTML
+- [Document Outline](https://h5o.github.io/): extension, debug, test, html
+
+
 ## CSS
 - [PostCSS.parts](http://postcss.parts/): resource, css, build
 - [Sass](http://sass-lang.com/): css
@@ -92,6 +96,7 @@ Tools
 - JSLint: js, lint
 - JSHint: js, lint
 - [JSCS](https://www.npmjs.com/package/jscs): js, lint
+- [jQuery Debugger](https://chrome.google.com/webstore/detail/jquery-debugger/dbhhnnnpaeobfddmlalhnehgclcmjimi): chrome extension, debug
 
 
 ## Images
