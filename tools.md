@@ -129,7 +129,7 @@ Tools
 
 
 ### Templating
-- [Assemble](http://assemble.io/): nodejs, 
+- [Assemble](http://assemble.io/): nodejs
 - [PieCrust](https://github.com/ludovicchabant/PieCrust): php, build, commandline, server
 
 
