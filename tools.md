@@ -39,7 +39,7 @@ Tools
 - [TextWrangler](http://www.barebones.com/products/textwrangler/): osx, editor, code
 
 
-### Brackets (extentions)
+### Brackets (extensions)
     dir %AppData%\Brackets\extensions\user /B | clip
     ls ~/Library/Application\ Support/Brackets/extensions/user | pbcopy
 - bobbyearl.taller-working-files
