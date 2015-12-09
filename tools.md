@@ -85,6 +85,7 @@ Tools
 - [Bootstrap](http://getbootstrap.com/): css, framework, grid
 - [Autoprefixer](https://github.com/postcss/autoprefixer): css, build
 - [CSScomb](http://csscomb.com/): css, build, lint
+- [J CSS Reload](https://github.com/jslayer/css-reload): chrome extension, css
 
 
 ## Javascript
@@ -105,16 +106,20 @@ Tools
 ## Fonts
 - [FontExplorer X](http://www.fontexplorerx.com/): osx, font, manager
 - [TypeKit](https://typekit.com/): service, paid
+- [IcoMoon](http://icomoon.io/): chrome app, image, svg, png, batch, manager, fonts
 
 
 ## A11y
 - [tota11y](http://khan.github.io/tota11y/): bookmarklet, debug, test
 - [Visual ARIA Bookmarklet](http://whatsock.com/training/matrices/visual-aria.htm): bookmarklet, debug, test
+- [SEE](https://chrome.google.com/webstore/detail/see/dkihcccbkkakkbpikjmpnbamkgbjfdcn): chrome extension, visual, simulator, test
+- [WAVE](http://wave.webaim.org/): extension, test, debug
 
 
 ## Browsers / Platforms
 - [BrowserStack](http://www.browserstack.com/): osx, android, windows, simulator, service, paid, test
 - [Genymotion](http://www.genymotion.com/features/): android, emulator, simulator, test
+- [Web Developer Toolbar](http://chrispederick.com/work/web-developer/): test, debug, extension
 
 
 ## Build
