@@ -2,9 +2,11 @@ Tools
 =====
 
 - [Gists](https://gist.github.com/elwinschmitz/): bookmarklet, code, manager
-- [Trello](https://trello.com/): todo, planning, project-management
+
 - [CoolTools](http://kk.org/cooltools/): resource, blog, podcast, reviews
 - [Awesome lists](https://github.com/sindresorhus/awesome): resource
+
+- [Trello](https://trello.com/): todo, planning, manager
 - [sizeUp](http://www.irradiatedsoftware.com/sizeup/): osx, window, manager
 
 
